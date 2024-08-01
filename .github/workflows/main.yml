@@ -57,4 +57,5 @@ jobs:
     steps:
       - run: |
           rm -rf package
+    needs: build
       
